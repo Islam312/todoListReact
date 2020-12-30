@@ -1,0 +1,24 @@
+.app-list-item {
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.app-list-item button {
+  width: 35px;
+  margin: 3px;
+}
+.app-list-item-label {
+  user-select: none;
+  cursor: pointer;
+}
+.app-list-item.done-item > .app-list-item-label {
+  text-decoration: line-through;
+}
+.app-list-item.mark-item .btn-outline-success{
+  background: green;
+  color: #ffffff;
+}
+.app-list-item.mark-item > .app-list-item-label{
+  font-weight: bold;
+  color: darkblue;
+}
